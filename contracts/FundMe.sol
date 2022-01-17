@@ -19,6 +19,7 @@ contract FundMe {
     //address of the owner (who deployed the contract)
     address public owner;
 
+    uint256 alaki;
     AggregatorV3Interface public priceFeed;
 
     // the first person to deploy the contract is
